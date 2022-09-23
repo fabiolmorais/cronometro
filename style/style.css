@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+    border: none;
+}
+
+body {
+    background-image: url("../assets/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    flex-flow: column wrap;
+    text-align: center;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h3 {
+    font-size: 4rem;
+    margin: 4rem 0 8rem 0;
+    color: white;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.time div {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 0 20px;
+    border-radius: 20px 20px 0 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px 5px white;
+}
+
+.time div p {
+    color: white;
+    font-weight: bold;
+    font-size: 8rem;
+}
+
+.time div span {
+    color: white;
+    font-size: 2rem;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    margin-top: 4rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px 2px white;
+    color: white;
+    border-radius: 10px;
+}
+
+.first, .second {
+    margin-right: 50px;
+}
+section button:hover:nth-child(3) {
+    background-color: lightgreen;
+}
+
+section button:hover:nth-child(4) {
+    background-color: rgb(247, 166, 134);
+}
+
+section button:hover:nth-child(5) {
+    background-color: rgb(209, 85, 85);
+}
